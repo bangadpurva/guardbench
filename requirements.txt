@@ -1,0 +1,15 @@
+openai>=1.0
+anthropic>=0.25
+transformers>=4.40
+accelerate>=0.30
+datasets>=2.18
+torch>=2.2
+scikit-learn>=1.4
+pandas>=2.0
+tqdm>=4.66
+# added by the build:
+jailbreakbench      # JBB-Behaviors source dataset
+ijson               # incremental ShareGPT JSON stream (avoids a 700 MB download)
+pyarrow             # column-projected MS-MARCO parquet read (avoids a 3 GB download)
+huggingface_hub     # HfFileSystem range reads
+requests

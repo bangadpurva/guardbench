@@ -1,0 +1,47 @@
+{
+  "n_attack": 4200,
+  "n_benign": 1000,
+  "n_unique_behaviours": 484,
+  "seed": 20260815,
+  "translation": {
+    "attempted": 191,
+    "translated": 174,
+    "fallback": 17
+  },
+  "severity_measured_frac": 1.0,
+  "categories": {
+    "Gradient-Optimised Suffix": {
+      "count": 420,
+      "mean_severity": 4.921
+    },
+    "Iterative Refinement": {
+      "count": 630,
+      "mean_severity": 4.91
+    },
+    "Many-Shot In-Context": {
+      "count": 490,
+      "mean_severity": 4.898
+    },
+    "Multilingual & Code-Switch": {
+      "count": 560,
+      "mean_severity": 3.832
+    },
+    "Prompt Injection": {
+      "count": 700,
+      "mean_severity": 4.73
+    },
+    "Role-Play & Persona Override": {
+      "count": 840,
+      "mean_severity": 4.783
+    },
+    "Token Manipulation": {
+      "count": 560,
+      "mean_severity": 1.939
+    }
+  },
+  "overall_mean_severity": 4.315,
+  "benign_sources": {
+    "ms_marco": 500,
+    "sharegpt": 500
+  }
+}
